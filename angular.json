@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "get-rapture": {
+    "get-endless-waves-survival": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/get-rapture",
+            "outputPath": "dist/get-endless-waves-survival",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "get-rapture:build:production"
+              "browserTarget": "get-endless-waves-survival:build:production"
             },
             "development": {
-              "browserTarget": "get-rapture:build:development"
+              "browserTarget": "get-endless-waves-survival:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "get-rapture:build"
+            "browserTarget": "get-endless-waves-survival:build"
           }
         },
         "test": {
@@ -107,11 +107,11 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "baseHref": "/get-rapture/"
+            "baseHref": "/get-endless-waves-survival/"
           }
         }
       }
     }
   },
-  "defaultProject": "get-rapture"
+  "defaultProject": "get-endless-waves-survival"
 }
