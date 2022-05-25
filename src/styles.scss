@@ -9,3 +9,8 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: "monogram";
+  src: local("monogram"), url(./assets/monogram.ttf) format("truetype");
+}
