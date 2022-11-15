@@ -50,6 +50,12 @@
 
 .contact {
   margin: 36px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .row:not(:last-child) {
+    margin-bottom: 15px;
+  }
 }
 
 .bg-container {
